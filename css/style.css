@@ -1,1 +1,17 @@
 /*stylesheet*/
+
+h1,h2 {
+	
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400
+}
+
+body {
+	margin: 20px;margin-top: 30px;
+	background: gray;
+	color: black;
+
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400; 
+}
+
