@@ -16,6 +16,15 @@ body {
 	font-weight: 400; 
 }
 
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+	padding: 0 2em; 
+
+}
+
+
+
 div {
 	width: 300px;
 	height: 300px;
