@@ -1,10 +1,15 @@
 /*stylesheet*/
 body {
 	margin: 0;
+	margin-right: 20em;
+	padding-left: 1em;
 	background: gray;
 	color: black;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400; 
+	
+
+
 }
 
 h1, h2, h3, h4, p {
@@ -40,6 +45,7 @@ h1,h2 {
 
 #content {
 	background: lightblue
+
 }
 
 
