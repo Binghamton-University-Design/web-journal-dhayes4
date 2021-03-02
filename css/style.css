@@ -1,15 +1,18 @@
 /*stylesheet*/
 body {
+
+	text-align: center;
 	margin: 0;
-	margin-right: 20em;
-	padding-left: 1em;
-	background: grey;
+	margin-right: 5em;
+	padding-left: 5em;
 	color: black;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400; 
-	
-
-
+		
+	background-image: url(../img/grid.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 110%;
 }
 
 h1, h2, h3, h4, p {
@@ -23,28 +26,41 @@ h1,h2 {
 	font-family: 'Benne', serif;
 	font-weight: 400
 
+
 }
 
+img {
+
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 120%;
+}
 
 #wrapper {
-	margin: 2em auto;
+	margin: 3em auto;
 	max-width: 1200px;
-	
+
 
 }
 
 #main {
 	background: lightgrey;
+	opacity: .9;
 	margin: 2em;
 	padding: 2em;
+
+
 }
 
 #sidebar {
-	background: white;
+	background: darkgrey ;
+	opacity: 1;
 }
 
 #content {
-	background: lightblue
+
 
 }
 
@@ -53,12 +69,16 @@ h1,h2 {
 }
 
 #logo h1 {
-	margin: 0;
+	margin: 10;
 }
 
 #logo img {
-	width: 75%;
+	width: 90%;
 	height: auto;
+	margin-bottom: 2em;
+	margin-left: 0em;
+	opacity: 1;
+
 }
 
 @media (max-width: 699px) {
@@ -70,6 +90,7 @@ h1,h2 {
 	#main {
 		margin: 1em;
 		padding: 0em;
+		opacity: 1;
 	}
 
 }
