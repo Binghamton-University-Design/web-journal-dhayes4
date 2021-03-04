@@ -1,7 +1,5 @@
 /*stylesheet*/
 body {
-
-	text-align: center;
 	margin: 0;
 	margin-right: 5em;
 	padding-left: 5em;
@@ -50,12 +48,15 @@ img {
 	opacity: .9;
 	margin: 2em;
 	padding: 2em;
+}
 
-
+#main img, #sidebar img {
+	width: 100%;
+	height: auto;
 }
 
 #sidebar {
-	background: darkgrey ;
+	background: darkgrey;
 	opacity: 1;
 }
 
@@ -64,9 +65,19 @@ img {
 
 }
 
+.item {
+	background: #fff;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+
+.item h1, .item h3 {
+	text-align: center;
+}
+
 #nav ul {
 	list-style: none;
-	padding-right: 0; 
+	padding: 0; 
 	margin: 0;
 	background: pink;
 
@@ -76,8 +87,6 @@ img {
 	margin-bottom: 1em;
 	background: orange;
 	list-style: none;
-
-
 }
 
 #nav li a {
