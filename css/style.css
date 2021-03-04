@@ -11,12 +11,16 @@ body {
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-size: 110%;
+
+	
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3 {
 
 	margin-top: 0;
 	margin-bottom: 1em;
+	text-align: center;
+	
 }
 
 h1,h2 {
@@ -37,8 +41,9 @@ img {
 }
 
 #wrapper {
-	margin: 3em auto;
+	margin: auto;
 	max-width: 1200px;
+
 
 
 }
@@ -46,8 +51,8 @@ img {
 #main {
 	background: lightgrey;
 	opacity: .9;
-	margin: 2em;
-	padding: 2em;
+	margin: 1em;
+	padding: 1em;
 }
 
 #main img, #sidebar img {
@@ -58,6 +63,12 @@ img {
 #sidebar {
 	background: darkgrey;
 	opacity: 1;
+	padding-left: 1em;
+}
+
+#sidebar h2, h3 {
+	line-height: 2;
+	text-align: left;
 }
 
 #content {
@@ -66,13 +77,14 @@ img {
 }
 
 .item {
-	background: #fff;
+	background: transparent;
 	padding: 2em;
 	margin-bottom: 2em;
 }
 
-.item h1, .item h3 {
+.item h1, .item h2 .item h3 {
 	text-align: center;
+	line-height: .75
 }
 
 #nav ul {
