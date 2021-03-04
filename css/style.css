@@ -79,23 +79,32 @@ img {
 	list-style: none;
 	padding: 0; 
 	margin: 0;
-	background: pink;
+	
 
 }
 
 #nav li {
+
 	margin-bottom: 1em;
-	background: orange;
-	list-style: none;
+	outline-color: blue
 }
 
 #nav li a {
 	color: black;
+	background-color: transparent; 
+  	text-decoration: overline;
 }
+
+a:visited {
+  	color: green;
+  	background-color: transparent;
+  	text-decoration: none;
+}
+
 
 #nav li a hover {
 	color: blue;
-	text-decoration: none;
+	text-decoration: line-through;
 }
 
 
