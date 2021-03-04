@@ -9,7 +9,7 @@ body {
 		
 	background-image: url(../img/grid.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: cover;
 	background-size: 110%;
 }
 
@@ -118,14 +118,31 @@ img {
 
 @media (max-width: 699px) {
 
-#wrapper {
+	#wrapper {
 		margin: 0em auto;
-}
+	}
 
-#main {
+	#main {
 		margin: 1em;
 		padding: 0em;
 		opacity: 1;
+	}
+
+	#logo {
+		text-align: center;
+		padding: 2em 0;
+	}
+
+	#nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#nav li {
+		display: inline;
+		padding: .25em;
+		background: purple;
+		margin-bottom: 0;
+	}
+
 }
-
-
