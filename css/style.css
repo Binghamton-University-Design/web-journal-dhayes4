@@ -31,7 +31,7 @@ h1,h2 {
 
 img {
 
-	
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -64,6 +64,32 @@ img {
 
 }
 
+#nav ul {
+	list-style: none;
+	padding-right: 0; 
+	margin: 0;
+	background: pink;
+
+}
+
+#nav li {
+	margin-bottom: 1em;
+	background: orange;
+	list-style: none;
+
+
+}
+
+#nav li a {
+	color: black;
+}
+
+#nav li a hover {
+	color: blue;
+	text-decoration: none;
+}
+
+
 #logo {
 	
 }
@@ -83,14 +109,14 @@ img {
 
 @media (max-width: 699px) {
 
-	#wrapper {
+#wrapper {
 		margin: 0em auto;
-	}
+}
 
-	#main {
+#main {
 		margin: 1em;
 		padding: 0em;
 		opacity: 1;
-	}
-
 }
+
+
