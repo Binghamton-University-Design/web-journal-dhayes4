@@ -1,19 +1,22 @@
 /*stylesheet*/
+
+
 body {
 	margin: 0;
 	margin-right: 5em;
 	padding-left: 5em;
-	color: black;
+	color: white;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400; 
 		
-	background-image: url(../img/grid.png);
+	background-image: url(../img/the-blowup.jpg);
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-size: 110%;
 
 	
 }
+
 
 h1, h2, h3 {
 
@@ -49,8 +52,7 @@ img {
 }
 
 #main {
-	background: lightgrey;
-	opacity: .9;
+	
 	margin: 1em;
 	padding: 1em;
 }
@@ -61,14 +63,15 @@ img {
 }
 
 #sidebar {
-	background: darkgrey;
-	opacity: 1;
+	background: transparent;
+	
 	padding-left: 1em;
 }
 
-#sidebar h2, h3 {
+#sidebar h2, p {
 	line-height: 2;
 	text-align: left;
+	text-decoration: none; 
 }
 
 #content {
@@ -85,6 +88,8 @@ img {
 .item h1, .item h2 .item h3 {
 	text-align: center;
 	line-height: .75
+	color: white;
+
 }
 
 #nav ul {
@@ -98,19 +103,19 @@ img {
 #nav li {
 
 	margin-bottom: 1em;
-	outline-color: blue
+	outline-color: 
 }
 
 #nav li a {
-	color: black;
+	color: white;
 	background-color: transparent; 
   	text-decoration: overline;
 }
 
 a:visited {
-  	color: green;
+  	color: white;
   	background-color: transparent;
-  	text-decoration: none;
+  	text-decoration: ;
 }
 
 
@@ -121,7 +126,8 @@ a:visited {
 
 
 #logo {
-	
+	width: 50%;
+
 }
 
 #logo h1 {
@@ -133,9 +139,73 @@ a:visited {
 	height: auto;
 	margin-bottom: 2em;
 	margin-left: 0em;
-	opacity: 1;
+	
 
 }
+
+#exquisite {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#exquisite .grid {
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+}
+
+#projects {
+	margin-bottom: 2em;
+
+}
+
+#projects .grid-item {
+	color: black;
+	position: relative;
+}
+
+#projects .grid-item {
+	display: block;
+	width: 100%;
+	height: auto; 
+
+}
+
+#projects .grid-item .overlay {
+	transition: opacity .3s ease-in-out;
+	opacity: 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#projects .grid-item:hover .overlay {
+	opacity: 1
+	}	
+
+#projects .grid-item .overlay .project-title h3 {
+	margin-bottom: 0;
+}	
+
+/* page specific styles */
+
+	body.proj1.html {
+			background-image: url("../images/earth.jpg");
+			background-repeat: no-repeat;
+			background size: cover;
+	}
+
+/* ------------*/ 
+
 
 @media (max-width: 699px) {
 
