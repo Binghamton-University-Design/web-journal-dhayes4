@@ -10,7 +10,7 @@ body {
 	font-weight: 400; 
 		
 	background-image: url(../img/the-blowup.jpg);
-	background-image: url(../img/curves.jpg);
+	
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-size: 110%;
@@ -199,8 +199,8 @@ a:visited {
 
 /* page specific styles */
 
-	body.proj1.html {
-			background-image: url("../images/earth.jpg");
+	body.project1 {
+			background-image: url("../img/curves.jpg");
 			background-repeat: no-repeat;
 			background size: cover;
 	}
