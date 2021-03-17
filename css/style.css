@@ -10,6 +10,7 @@ body {
 	font-weight: 400; 
 		
 	background-image: url(../img/the-blowup.jpg);
+	background-image: url(../img/curves.jpg);
 	background-repeat: no-repeat;
 	background-position: cover;
 	background-size: 110%;
@@ -101,7 +102,7 @@ img {
 }
 
 #nav li {
-
+	display: vertical;
 	margin-bottom: 1em;
 	outline-color: 
 }
