@@ -93,6 +93,8 @@ img {
 
 }
 
+
+
 #nav ul {
 	list-style: none;
 	padding: 0; 
@@ -220,6 +222,32 @@ a:visited {
 	}
 
 	body.project2 p {
+		color: black;
+	}
+
+
+	body.playground p{
+
+	font-weight: 800;
+
+
+	}
+
+	#exquisite h3 {
+		text-align: left;
+
+	}
+
+	#exquisite ul.a {
+	  list-style-type: circle;
+	}
+
+	#exquisite h3 {
+		color: black;
+		text-decoration: underline;
+	}	
+
+	#exquisite li {
 		color: black;
 	}
 
