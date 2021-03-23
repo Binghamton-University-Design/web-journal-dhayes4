@@ -9,11 +9,15 @@ body {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 400; 
 		
-	background-image: url(../img/the-blowup.jpg);
+	background-image: url(../img/the-blowup-enlarge2.png); 
 	
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: cover;
-	background-size: 110%;
+	background-image: center fixed;
+	background-size: cover;
+	
+	background-size: 135% ;
+
 
 	
 }
@@ -106,7 +110,7 @@ img {
 #nav li {
 	display: vertical;
 	margin-bottom: 1em;
-	outline-color: 
+	outline-color: white;
 }
 
 #nav li a {
@@ -210,8 +214,9 @@ a:visited {
 
 	body.project1 {
 			background-image: url("../img/curves.jpg");
-			background-repeat: no-repeat;
+			background-repeat: repeat;
 			background size: cover;
+			background-size: 100%;
 	}
 
 	body.project2 {
@@ -264,7 +269,10 @@ a:visited {
 		margin: 1em;
 		padding: 0em;
 		opacity: 1;
+
 	}
+
+	
 
 	#logo {
 		text-align: center;
@@ -279,7 +287,7 @@ a:visited {
 	#nav li {
 		display: inline;
 		padding: .25em;
-		background: purple;
+		background: transparent;
 		margin-bottom: 0;
 	}
 
