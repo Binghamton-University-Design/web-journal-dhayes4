@@ -203,7 +203,7 @@ a:visited {
 }
 
 #projects .grid-item:hover .overlay {
-	opacity: 1
+	opacity: 70%
 	}	
 
 #projects .grid-item .overlay .project-title h3 {
@@ -231,13 +231,6 @@ a:visited {
 	}
 
 
-	body.playground p{
-
-	font-weight: 800;
-
-
-	}
-
 	#exquisite h3 {
 		text-align: left;
 
@@ -255,6 +248,24 @@ a:visited {
 	#exquisite li {
 		color: black;
 	}
+
+body.project3 {
+
+			background-image: url("../img/vines.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+
+	}
+.containter img.project3 {
+	height: 50%
+	width: auto;  
+}
+
+/* Resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
 
 /* ------------*/ 
 
