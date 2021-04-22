@@ -261,6 +261,37 @@ body.project3 {
 	width: auto;  
 }
 
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 300px; 
+}
+
+.column2 {
+  float: left;
+  width: 35%;
+  padding: 5px;
+  height: 300px; 
+}
+
+.column3 {
+  float: left;
+  width: 31.5%;
+  padding: 0px;
+  height: 300px; 
+}
+
+.column5 {
+  float: left;
+  width: 31.5%;
+  padding: 5px;
+  height: 300px; 
+}
+
+
 /* Resize images */
 .container img {
     width: 100%;
