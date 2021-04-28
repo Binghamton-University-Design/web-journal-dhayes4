@@ -227,27 +227,20 @@ a:visited {
   position: relative;
 }
 
-#map-inner .map1 {
+#map-inner .map-sunroom {
   position: absolute;
   z-index: 1;
-  width: 9%;
-  height: 12%;
-  left: 57%;
-  top: 58%;
-  border: 5px solid transparent;
+  width: 22%;
+  height: 9%;
+  left: 72.5%;
+  top: 28.5%;
+  border: 1px solid red;
   transition: border .3s ease-in-out;
 }
 
-#map-inner .map1:hover {
-  border: 5px solid red;
+#map-inner .map-sunroom:hover {
+  border: 1px solid red;
 }
-
-
-
-
-
-
-
 
 
 
