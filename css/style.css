@@ -210,6 +210,53 @@ a:visited {
 	margin-bottom: 0;
 }	
 
+
+/* Map */
+
+#map {
+  overflow: hidden;
+}
+
+#map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#map-inner {
+  position: relative;
+}
+
+#map-inner .map1 {
+  position: absolute;
+  z-index: 1;
+  width: 9%;
+  height: 12%;
+  left: 57%;
+  top: 58%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .map1:hover {
+  border: 5px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* page specific styles */
 
 	body.project1 {
