@@ -360,29 +360,30 @@ body.project3 {
 
 .column {
   float: left;
-  width: 48%;
+  width: 55%;
   padding: 5px;
+
 
 }
 
 
 .column2 {
   float: left;
-  width: 35%;
+  width: 48%;
   padding: 5px;
   height: 300px; 
 }
 
 .column3 {
   float: left;
-  width: 31.5%;
-  padding: 0px;
+  width: 33%;
+  padding: 2px;
   height: 300px; 
 }
 
 .column5 {
   float: left;
-  width: 31.5%;
+  width: 31.6%;
   padding: 5px;
   height: 300px; 
 }
