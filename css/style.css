@@ -302,6 +302,21 @@ a:visited {
   border: 1px solid green;
 }
 
+#first-map {
+	position: relative;
+}
+
+#first-map .backyard1 {
+	position: absolute;
+  z-index: 1;
+  width: 22%;
+  height: 9%;
+  left: 72.5%;
+  top: 28.5%;
+  border: 1px solid red;
+  transition: border .1s ease-in-out;
+}
+
 
 
 /* page specific styles */
@@ -366,17 +381,21 @@ body.project3 {
 
 }
 
+.backyard1 {
+	padding: 5px;
+	background-color: blue;
 
-.column2 {
-  float: left;
-  width: 48%;
-  padding: 5px;
-  height: 300px; 
+}
+
+.backyard2 {
+	padding: 5px;
+	background-color: yellow;
+
 }
 
 .column3 {
   float: left;
-  width: 33%;
+  width: 200px;
   padding: 2px;
   height: 300px; 
 }
@@ -387,6 +406,7 @@ body.project3 {
   padding: 5px;
   height: 300px; 
 }
+
 
 
 /* Resize images */
@@ -411,7 +431,7 @@ body.project3 {
 
 	}
 
-	
+
 
 	#logo {
 		text-align: center;

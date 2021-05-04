@@ -9,10 +9,6 @@ console.log('hello');
 
 
 
-$('#slider-inner').slick({
-    infinite: true,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next'),
-  });
+
 
 });
