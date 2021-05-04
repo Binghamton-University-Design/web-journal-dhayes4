@@ -373,42 +373,6 @@ body.project3 {
 
 
 
-.column {
-  float: left;
-  width: 55%;
-  padding: 5px;
-
-
-}
-
-.backyard1 {
-	padding: 5px;
-	background-color: blue;
-
-}
-
-.backyard2 {
-	padding: 5px;
-	background-color: yellow;
-
-}
-
-.column3 {
-  float: left;
-  width: 200px;
-  padding: 2px;
-  height: 300px; 
-}
-
-.column5 {
-  float: left;
-  width: 31.6%;
-  padding: 5px;
-  height: 300px; 
-}
-
-
-
 /* Resize images */
 .container img {
     width: 100%;
