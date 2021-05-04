@@ -370,7 +370,10 @@ body.project3 {
 	width: auto;  
 }
 
-
+#arrowbackyard {
+	height: 15px;
+	width: auto;
+}
 
 
 /* Resize images */
