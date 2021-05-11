@@ -50,9 +50,7 @@ img {
 
 #wrapper {
 	margin: auto;
-	max-width: 1200px;
-
-
+	max-width: 1000px;
 
 }
 
@@ -365,14 +363,34 @@ body.project3 {
 			background-size: cover;
 
 	}
+
+
 .containter img.project3 {
 	height: 50%
 	width: auto;  
 }
 
 #arrowbackyard {
+	margin: 1.5em;
 	height: 15px;
-	width: auto;
+	
+}
+
+a.prev {
+	font-size: 2em;
+}
+
+#stories img {
+	width: 70%;
+	height: auto;
+	margin-bottom: 2em;
+	margin-left: 0em;
+}
+
+#arrowalbum {
+	margin: 1.5em;
+	height: 15px;
+	padding-bottom: 3em;
 }
 
 
